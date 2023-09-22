@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -32,8 +32,8 @@ const Navbar = () => {
           </button>
         </form> */}
         <span className='nav-item'>
-          <Link to='/login'>
-            <FontAwesomeIcon icon={faSignInAlt} /> Login
+          <Link to='/'>
+            <FontAwesomeIcon icon={faSignOutAlt} /> Logout
           </Link>
         </span>
       </div>
