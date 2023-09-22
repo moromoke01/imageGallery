@@ -44,7 +44,7 @@ const ImagesData =[
         id:5,
         title: "my picture",
         url:`${img5}`,
-        tags: ["event", "shoes"],
+        tags: ["event", "decoration"],
     },
     {
         id:6,
