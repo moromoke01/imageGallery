@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { auth } from "../../Firebase";
 import "./Auth.css"; // Import your CSS file for styling
 import { Link } from 'react-router-dom';
-import {useNavigate} from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'; 
 
 
 function Signup() {
