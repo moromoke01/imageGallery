@@ -21,8 +21,8 @@
     font-family: Freehand521 BT;
     text-align: left;
     font-size: 30px;
-    margin-left: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-block-start: 10px;;
 }
  .nav-item{
     position: absolute;
