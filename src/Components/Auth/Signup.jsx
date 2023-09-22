@@ -22,12 +22,13 @@ function Signup() {
       );
     
       // Redirect or show a success message
+      alert("successfully signed up"); 
       navigate("/"); 
       console.log(userCredential);
     }
       catch (error) {
       // Handle signup error
-     Alert("error in signing up"); 
+     alert("error in signing up"); 
       console.log(error);
     }
   };
