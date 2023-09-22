@@ -1,0 +1,22 @@
+.gallery-container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1em;
+    background: #55043b;
+    padding-top: 1em;
+    
+}
+
+
+.image-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column width as needed */
+  gap: 10px;
+  margin: 20px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+.image{
+    width: 200px;
+    height: auto;
+}
