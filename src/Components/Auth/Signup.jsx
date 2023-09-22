@@ -3,11 +3,14 @@ import React, { useState } from "react";
 import { auth } from "../../Firebase";
 import "./Auth.css"; // Import your CSS file for styling
 import { Link } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom'; 
+
 
 function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const navigate = useNavigate(); 
   const handleSignup = async (e) => {
     e.preventDefault();
     
@@ -19,10 +22,12 @@ function Signup() {
       );
     
       // Redirect or show a success message
+      navigate("/"); 
       console.log(userCredential);
     }
       catch (error) {
-      // Handle signup errors
+      // Handle signup error
+     Alert("error in signing up"); 
       console.log(error);
     }
   };
