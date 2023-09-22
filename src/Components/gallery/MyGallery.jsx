@@ -71,7 +71,7 @@ const MyGallery = () => {
         <form onSubmit={(e) => e.preventDefault()} className="search-form">
           <input
             type="text"
-            placeholder="Search by decoration, wedding, couple, Tech"
+            placeholder="Search by decoration, wedding,medical,couple,Tech"
             value={searchTerm}
             onChange={handleSearchChange}
           />
