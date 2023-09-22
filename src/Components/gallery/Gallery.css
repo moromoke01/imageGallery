@@ -20,3 +20,36 @@
     width: 200px;
     height: auto;
 }
+
+/* Basic styles for the search bar */
+.search-form {
+  width: 100%;
+  max-width: 300px; /* Set a maximum width to prevent it from stretching too wide */
+  margin: 0 auto; /* Center the search bar horizontally */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1; /* Allow the input to expand and take available space */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #007bff; /* Customize the button style as needed */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Add media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .search-form {
+    max-width: 100%; /* Remove the maximum width to allow full width on smaller screens */
+  }
+}
