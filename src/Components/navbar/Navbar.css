@@ -7,6 +7,8 @@
   } */
 
 .navbar-content{
+    display:flex; 
+    flex-direction:  column;
     width: 80%;
     height: 3em;
     margin: auto;
@@ -33,6 +35,10 @@
    right: 50px;
 }
 @media screen and (max-width: 768px){
+.navbar-content{
+    display:flex; 
+    flex-direction:  column;
+}
 .navbar-content h3{
     color: #fff;
     font-family: Freehand521 BT;
