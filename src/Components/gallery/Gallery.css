@@ -24,7 +24,7 @@
 
 /* Basic styles for the search bar */
 .search-form {
-  max-width: 95%;
+  max-width: 90%;
   /*max-width: 300px;*/ /* Set a maximum width to prevent it from stretching too wide */
   margin: auto; /* Center the search bar horizontally */
   padding: 10px;
