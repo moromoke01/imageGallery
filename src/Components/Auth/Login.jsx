@@ -49,7 +49,7 @@ function Login() {
         </div>
         
         <div>
-          <label htmlFor="Email">Enter your Email</label>
+          <label htmlFor="Password">Enter your Password</label>
         <input
           type="password"
           placeholder="Password"
